@@ -1,0 +1,8 @@
+.hero-skills{
+    height: 100vh;
+    background-image: url('/src//Images//gbg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}

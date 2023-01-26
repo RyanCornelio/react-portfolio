@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    contain: content;
+    height: 20%;
+  }
+  
+.nav-elements a { 
+    color: aliceblue;
+    text-decoration: none;
+    padding: 3vw;
+    font-weight:400;
+}
+
+.nav-elements a:hover{
+    color: darkslategray;
+    transition: ease-in 0.5s;
+}
+
+.nav-elements ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
