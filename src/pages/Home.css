@@ -6,3 +6,24 @@
     background-size: cover;
     width: 100%;
 }
+
+.textbox{
+    height: 100vh;
+    background-image: url('/src//Images//gbg4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.headline1{
+    color: white;
+}
+.headline2{
+    color: rgb(0, 0, 0);
+}
+.headline3{
+    color: white;
+}
+
+

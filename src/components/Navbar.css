@@ -12,15 +12,21 @@
     text-decoration: none;
     padding: 3vw;
     font-weight:400;
+    justify-content: end;
+    font-size:x-large;
 }
 
 .nav-elements a:hover{
-    color: darkslategray;
-    transition: ease-in 0.5s;
+    color: rgb(0, 148, 247);
+    transition: ease-in 0.3s;
 }
 
 .nav-elements ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.logo{
+    width: 800px;
 }
