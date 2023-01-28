@@ -1,0 +1,41 @@
+.icon{
+    color: rgb(5, 96, 233);
+    font-size: x-large;
+}
+
+.appbarTitle{
+    flex-grow: 1;
+}
+
+.appbarWrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.colorText{
+    color: rgb(5, 96, 233);
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: nunito;
+    color: aliceblue;
+}
+
+.goDown{
+    color: rgb(5, 96, 233);
+   
+    font-size: x-large;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 4.5rem;
+}
+
+.container{
+    text-align: center;
+}

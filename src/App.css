@@ -8,8 +8,10 @@ img {
   width: 70px;
 }
 
-body {
+
+.App{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-image: url("./Images/g1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

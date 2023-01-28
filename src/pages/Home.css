@@ -1,8 +1,28 @@
 .hero-section{
+    /* min-height: 100vh; */
+    background-image: url('/src//Images//island1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* .hero-section2{
     height: 100vh;
-    background-image: url('/src//Images//gbg1.jpg');
+    background-image: url('/src//Images//gbg4.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
+} */
+
+.headline1{
+    color: white;
 }
+.headline2{
+    color: rgb(0, 0, 0);
+}
+.headline3{
+    color: white;
+}
+
+

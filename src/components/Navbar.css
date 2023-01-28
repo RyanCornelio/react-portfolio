@@ -1,10 +1,11 @@
 .navbar {
     width: 100%;
-    background-color: black;
+    background-color:black;
     display: flex;
     align-items: center;
     contain: content;
     height: 20%;
+    list-style: none;
   }
   
 .nav-elements a { 
@@ -12,15 +13,27 @@
     text-decoration: none;
     padding: 3vw;
     font-weight:400;
+    justify-content: end;
+    font-size:x-large;
+    list-style: none;
 }
 
 .nav-elements a:hover{
-    color: darkslategray;
-    transition: ease-in 0.5s;
+    color: rgb(0, 148, 247);
+    transition: ease-in 0.3s;
 }
 
 .nav-elements ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style: none;
+}
+
+.logo{
+    width: 800px;
+}
+
+.menu-icon{
+    visibility: hidden;
 }

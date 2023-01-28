@@ -3,9 +3,15 @@ import "./Home.css"
 
 const Home = () => {
   return (
+    <>
     <div className='hero-section'>
-    Home Page
+
+    
     </div>
+   {/*  <p className='textbox'>
+      Hej!
+    </p> */}
+    </>
   )
 }
 
