@@ -13,7 +13,7 @@ const Header = () => {
     <div className="root">
       <AppBar style={{ background: 'transparent', boxShadow: 'none', fontFamily: 'nunito' }}>
         <Toolbar className='appbarWrapper'>
-          <h1 className="appbarTitle">Ryan<span className="colorText">Cornelio</span></h1>
+          <h1 className="appbarTitle">Ryan<span className="colorText">Cornelio</span>.</h1>
           <IconButton>
             <SortIcon className='icon' />
           </IconButton>
@@ -22,10 +22,10 @@ const Header = () => {
 
       <Collapse in={checked}
         {...(checked ? { timeout: 1000 } : {})}
-        collapsedHeight={50}
+        collapsedheight={50}
       >
         <div className="container">
-          <h1 className="title">Welcome To <br /> My <span className="colorText">Page</span>
+          <h1 className="title">Welcome To <br /> My <span className="colorText">Page</span>.
         </h1>
           <IconButton>
             <KeyboardArrowDownIcon style={{ fontSize: '3em'}} className="goDown"/>

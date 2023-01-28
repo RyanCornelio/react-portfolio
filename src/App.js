@@ -1,5 +1,5 @@
 import "./App.css"
-import Footer from "./components/Footer";
+/* import Footer from "./components/Footer"; */
 /* import Navbar from "./components/Navbar"; */
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
@@ -9,6 +9,7 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
+import PlaceToVisit from "./components/PlaceToVisit";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Gallery" element={<Gallery />} />
           </Routes>
-{/*           <Footer /> */}
+          <PlaceToVisit />
+                {/*     <Footer /> */}
         </Router>
       </>
     </div>

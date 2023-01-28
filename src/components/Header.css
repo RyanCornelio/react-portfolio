@@ -32,8 +32,9 @@
 }
 
 .title{
-    color: aliceblue;
+    /* color: aliceblue; */
     font-size: 4.5rem;
+    font-family: 'nunito';
 }
 
 .container{
