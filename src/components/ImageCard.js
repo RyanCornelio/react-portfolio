@@ -21,6 +21,8 @@ const ImageCard = () => {
               {p.description}
               <br></br>
               <a href={p.url}>Github</a>
+              <br></br>
+              <a href={p.live}>Preview</a>
             </Typography>
           </CardContent>
         </Card>

@@ -5,7 +5,8 @@ const places = [
         "Fetching API",
         imageUrl: '/Images/project1.png',
         time: 1500,
-        url: 'https://github.com/RyanCornelio/vite-movies'
+        url: 'https://github.com/RyanCornelio/vite-movies',
+        live: 'https://vite-movies.vercel.app/'
     },
     {
         title: 'Good Gains',
@@ -13,7 +14,8 @@ const places = [
         "Sports E-commerce",
         imageUrl: '/Images/gg.png',
         time: 1500,
-        url: 'https://github.com/RyanCornelio/vite-shop'
+        url: 'https://github.com/RyanCornelio/vite-shop',
+        live: 'https://good-gains.vercel.app/'
     },
     {
         title: 'Portfolio',
@@ -21,7 +23,8 @@ const places = [
         "Code for this page",
         imageUrl: '/Images/portfolio.png',
         time: 1500,
-        url: 'https://github.com/RyanCornelio/react-portfolio'
+        url: 'https://github.com/RyanCornelio/react-portfolio',
+        live: 'https://react-portfolio-six-sand.vercel.app/'
     },
 
 ];
