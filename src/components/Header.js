@@ -10,7 +10,7 @@ const Header = () => {
     setChecked(true);
   }, [])
   return (
-    <div className="root">
+    <div className="root" id="header">
       <AppBar style={{ background: 'transparent', boxShadow: 'none', fontFamily: 'nunito' }}>
         <Toolbar className='appbarWrapper'>
           <h1 className="appbarTitle">Ryan<span className="colorText">Cornelio</span>.</h1>

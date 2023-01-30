@@ -1,6 +1,6 @@
 .hero-gallery{
     height: 100vh;
-    background-image: url('/src/Images/g1.jpg');
+    background-image: url('/public/Images/g1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

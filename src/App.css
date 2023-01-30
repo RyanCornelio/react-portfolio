@@ -5,13 +5,15 @@
 }
 
 img {
-  width: 70px;
+  width: 650px;
+  contain: content;
+  height: 440px;
 }
 
 
 .App{
   min-height: 100vh;
-  background-image: url("./Images/sea3.jpg");
+  background-image: url("/public/Images/sea3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -9,7 +9,7 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
-import PlaceToVisit from "./components/PlaceToVisit";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Gallery" element={<Gallery />} />
           </Routes>
-          <PlaceToVisit />
+          <Projects />
                 {/*     <Footer /> */}
         </Router>
       </>
