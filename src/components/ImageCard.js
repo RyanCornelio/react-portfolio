@@ -9,11 +9,9 @@ import places from "./static/places";
 const ImageCard = () => {
   return (
     places.map((p) => (
-        <Card key={p.key}  sx={{ width: 650, background: 'rgba(0,0,0,0.5)', margin: '20px'} }>
-          <CardMedia sx={{ height: 440 }}>
-            <a href='https://github.com/RyanCornelio?tab=repositories'>
-            <img src={p.imageUrl} alt="projects" sx={{ width: 650}}/>
-            </a>
+        <Card key={p.key}  sx={{ width: 645, background: 'rgba(0,0,0,0.5)', margin: '20px'} }>
+          <CardMedia sx={{ height: 440 }} className='media'>
+            <img src={p.imageUrl} alt="projects" sx={{ width: 645}}/>
           </CardMedia>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h1" className='title' fontFamily="Nunito">
@@ -21,6 +19,8 @@ const ImageCard = () => {
             </Typography>
             <Typography variant="body2" fontFamily="Nunito" className="description">
               {p.description}
+              <br></br>
+              <a href={p.url}>Github</a>
             </Typography>
           </CardContent>
         </Card>

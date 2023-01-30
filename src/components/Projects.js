@@ -8,7 +8,7 @@ const Projects = () => {
   /* const checked = useWIndowPosition('header'); */
   return (
     <div className='root'>
-      <ImageCard place={places[0]} />
+      <ImageCard place={places[0]} xs={{ }}/>
     </div>
   )
 }

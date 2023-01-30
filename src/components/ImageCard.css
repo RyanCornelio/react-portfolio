@@ -9,3 +9,12 @@
     font-size: 1.1rem;
     color: #ddd;
 }
+
+.media{
+    height: 440;
+}
+
+.description a{
+    color: white;
+    font-family: 'Nunito';
+}

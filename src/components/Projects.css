@@ -3,14 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-/* .projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Nunito';
-    color: aliceblue;
-} */
+@media (max-width: 650px){
+    .root{
+        flex-direction: column;
+        margin: 20px 20px;
+        flex-wrap: nowrap;
+    }
+}
+
