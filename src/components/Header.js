@@ -25,7 +25,7 @@ const Header = () => {
         collapsedheight={50}
       >
         <div className="container">
-          <h1 className="title">Welcome To <br /> My <span className="colorText">Page</span>.
+          <h1 className="title">Welcome To <br /> My <span className="colorText">Portfolio</span>.
         </h1>
           <IconButton>
             <KeyboardArrowDownIcon style={{ fontSize: '3em'}} className="goDown"/>

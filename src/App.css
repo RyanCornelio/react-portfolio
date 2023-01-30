@@ -5,7 +5,7 @@
 }
 
 img {
-  width: 650px;
+  width: 645px;
   contain: content;
   height: 440px;
 }
@@ -16,4 +16,12 @@ img {
   background-image: url("/public/Images/sea3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+/*   min-width: 100vw; */
+}
+
+@media (max-width: 600px){
+  .App{
+      width: 100vw;
+      height: 100vh;
+  }
 }

@@ -10,11 +10,14 @@
     color: #ddd;
 }
 
-.media{
-    height: 440;
-}
-
 .description a{
     color: white;
     font-family: 'Nunito';
 }
+
+@media (max-width: 600px){
+    .card{
+        width: 50vw;
+        height: 50vh;
+    }
+  }

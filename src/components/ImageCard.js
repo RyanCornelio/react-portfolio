@@ -9,7 +9,7 @@ import places from "./static/places";
 const ImageCard = () => {
   return (
     places.map((p) => (
-        <Card key={p.key}  sx={{ width: 645, background: 'rgba(0,0,0,0.5)', margin: '20px'} }>
+        <Card key={p.key}  sx={{ width: 645, background: 'rgba(0,0,0,0.5)', margin: '20px'} } className='card'>
           <CardMedia sx={{ height: 440 }} className='media'>
             <img src={p.imageUrl} alt="projects" sx={{ width: 645}}/>
           </CardMedia>
