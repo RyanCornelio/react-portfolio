@@ -1,0 +1,8 @@
+.hero-work{
+    height: 100vh;
+    background-image: url('/public/Images/gbg4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}

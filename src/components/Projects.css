@@ -1,0 +1,23 @@
+.root{
+    min-height: 100vh;
+}
+
+@media (max-width: 650px){
+    .root{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        width: 90vw;
+        
+    }
+    .media{
+        width: 20vw;
+        height: 10vh;
+    }
+    
+}

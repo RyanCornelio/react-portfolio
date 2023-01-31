@@ -1,0 +1,30 @@
+.title{
+    font-family: 'Nunito';
+    font-size: 2rem;
+    color: #fff;
+}
+
+.description{
+    font-family: 'Nunito';
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+.description a{
+    color: white;
+    font-family: 'Nunito';
+}
+
+.media{
+    height: 35vh;
+    width: auto;
+    object-fit:fill;
+}
+
+.card{
+    height: 52vh;
+}
+
+.root{
+    min-height: 100vh;
+}

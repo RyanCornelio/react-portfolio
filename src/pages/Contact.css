@@ -1,0 +1,8 @@
+.hero-contact{
+    height: 100vh;
+    background-image: url('/public/Images/gbg5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
