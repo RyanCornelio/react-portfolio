@@ -23,8 +23,15 @@
 
 .card{
     height: 52vh;
+    width: auto;
 }
 
 .root{
     min-height: 100vh;
+}
+
+.stack{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
 }

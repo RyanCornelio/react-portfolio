@@ -10,9 +10,9 @@ import { Grid } from '@mui/material';
 const ImageCard = () => {
   return (
     places.map((p) => (
-<Grid>
+      <Grid>
 
-        <Card key={p.key}  sx={{background: 'rgba(0,0,0,0.5)', margin: '20px'} } className='card'>
+        <Card key={p.key} sx={{ background: 'rgba(0,0,0,0.5)', margin: '20px' }} className='card'>
           <CardMedia className='media'>
             <img src={p.imageUrl} alt="projects" />
           </CardMedia>
@@ -26,14 +26,21 @@ const ImageCard = () => {
               <a href={p.url}>Github</a>
               <br></br>
               <a href={p.live}>Preview</a>
+              <div className="stack">
+                <img src={p.stack1}></img>
+                <img src={p.stack2}></img>
+                <img src={p.stack3}></img>
+                <img src={p.stack4}></img>
+              </div>
+
             </Typography>
           </CardContent>
         </Card>
 
-</Grid>
+      </Grid>
     )
-  ))
-    
-  }
+    ))
+
+}
 
 export default ImageCard;

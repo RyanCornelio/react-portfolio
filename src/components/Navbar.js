@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css';
-import Logo from '../Images/logo5.png'
+import Logo from '/Images/logo5.png'
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
