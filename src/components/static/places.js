@@ -10,6 +10,15 @@ const places = [
         live: 'https://good-gains.vercel.app/'
     },
     {
+        title: 'Stream Spot',
+        description: 
+        "Movie Stream",
+        imageUrl: '/Images/project1.png',
+        time: 1500,
+        url: 'https://github.com/RyanCornelio/vite-movies',
+        live: 'https://vite-movies.vercel.app/'
+    },
+    {
         title: 'Portfolio',
         description: 
         "Code for this page",
