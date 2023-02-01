@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @media (max-width: 650px){
     .root{
@@ -18,3 +19,19 @@
     }
     
 }
+=======
+.root {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 650px){
+    .root{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+>>>>>>> ec47a206d4ec7bbc4aaaed26520df1e74282bbbb
