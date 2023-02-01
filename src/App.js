@@ -17,10 +17,6 @@ function App() {
       <>
         <Router>
           <Header />
-<<<<<<< HEAD
-{/*           <Navbar /> */}
-=======
->>>>>>> ec47a206d4ec7bbc4aaaed26520df1e74282bbbb
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
@@ -30,11 +26,7 @@ function App() {
             <Route path="/Gallery" element={<Gallery />} />
           </Routes>
           <Projects />
-<<<<<<< HEAD
-        {/*             <Footer /> */}
-=======
                 {/*     <Footer /> */}
->>>>>>> ec47a206d4ec7bbc4aaaed26520df1e74282bbbb
         </Router>
       </>
     </div>

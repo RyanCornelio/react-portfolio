@@ -5,15 +5,9 @@
 }
 
 img {
-<<<<<<< HEAD
   height: 100%;
   width: 100%;
   contain: content;
-=======
-  width: 645px;
-  contain: content;
-  height: 440px;
->>>>>>> ec47a206d4ec7bbc4aaaed26520df1e74282bbbb
 }
 
 
@@ -22,17 +16,5 @@ img {
   background-image: url("/public/Images/sea3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   width: 100vw;
 }
-=======
-/*   min-width: 100vw; */
-}
-
-@media (max-width: 600px){
-  .App{
-      width: 100vw;
-      height: 100vh;
-  }
-}
->>>>>>> ec47a206d4ec7bbc4aaaed26520df1e74282bbbb

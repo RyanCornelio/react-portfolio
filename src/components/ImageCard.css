@@ -15,7 +15,6 @@
     font-family: 'Nunito';
 }
 
-<<<<<<< HEAD
 .media{
     height: 35vh;
     width: 100%;
@@ -36,11 +35,3 @@
     display: flex;
     flex-direction: row;
 }
-=======
-@media (max-width: 600px){
-    .card{
-        width: 50vw;
-        height: 50vh;
-    }
-  }
->>>>>>> ec47a206d4ec7bbc4aaaed26520df1e74282bbbb
