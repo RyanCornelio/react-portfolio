@@ -15,9 +15,23 @@
     font-family: 'Nunito';
 }
 
-@media (max-width: 600px){
-    .card{
-        width: 50vw;
-        height: 50vh;
-    }
-  }
+.media{
+    height: 35vh;
+    width: 100%;
+    object-fit:cover;
+}
+
+.card{
+    height: 52vh;
+    width: auto;
+}
+
+.root{
+    min-height: 100vh;
+}
+
+.stack{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+}

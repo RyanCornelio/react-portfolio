@@ -1,14 +1,20 @@
-.root {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 @media (max-width: 650px){
     .root{
+        display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        height: auto;
     }
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        width: 20vw;
+        
+    }
+    .media{
+        width: 20vw;
+        height: 10vh;
+    }
+    
 }
-

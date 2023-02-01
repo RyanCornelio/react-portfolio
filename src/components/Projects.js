@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import ImageCard from './ImageCard';
 import places from "./static/places";
-import useWIndowPosition from '../hook/useWIndowPosition';
+/* import useWIndowPosition from '../hook/useWIndowPosition'; */
 
 const Projects = () => {
   /* const checked = useWIndowPosition('header'); */
