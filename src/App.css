@@ -16,5 +16,5 @@ img {
   background-image: url("/public/Images/sea3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+/*   width: 100vw; */
 }
